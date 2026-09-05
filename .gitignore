@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Session & auth WhatsApp (JANGAN di-commit — berisi kredensial)
+storage/
+sessions/
+session/
+*.session.json
+
+# Environment (berisi nomor & API key pribadi)
+.env
+
+# Runtime / temp
+temp/
+tmp/
+logs/
+*.log
+.tpm/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Arsip distribusi (source sudah di-extract ke repo)
+*.zip
+*.rar
+*.7z
+
+# Build / cache
+dist/
+build/
+.cache/
