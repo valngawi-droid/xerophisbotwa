@@ -327,17 +327,17 @@ const config = {
   //  PENTING: key bawaan di bawah ini sudah tersebar publik, ganti dengan milikmu.
   APIkey: {
     // kalian bisa daftar di https://api.lolhuman.xyz, lalu ambil apikeynya
-    lolhuman: process.env.LOLHUMAN_KEY || "", // daftar: https://api.lolhuman.xyz
+    lolhuman: process.env.LOLHUMAN_KEY || "a75bf92ab752eaa67d58ccf9", // daftar: https://api.lolhuman.xyz
     // kalian bisa daftar di https://api.neoxr.eu, lalu ambil apikeynya
-    neoxr: process.env.NEOXR_KEY || "", // daftar: https://api.neoxr.eu
-    fgsi: process.env.FGSI_KEY || "",
-    google: process.env.GOOGLE_KEY || "", // Google Cloud API key milikmu
-    groq: process.env.GROQ_KEY || "", // gratis di console.groq.com (fitur transkrip)
-    betabotz: process.env.BETABOTZ_KEY || "",
+    neoxr: process.env.NEOXR_KEY || "svlHgl", // daftar: https://api.neoxr.eu
+    fgsi: process.env.FGSI_KEY || "fgsiapi-20c1605c-6d",
+    google: process.env.GOOGLE_KEY || "", // WAJIB isi Google Cloud API key sendiri bila fitur yg butuh ini error
+    groq: process.env.GROQ_KEY || "", // WAJIB isi key sendiri (gratis di console.groq.com) untuk fitur transkrip
+    betabotz: process.env.BETABOTZ_KEY || "Btz-67YfP",
     // kalian bisa daftar di https://covenant.sbs, dan ambil apikeynya
-    covenant: process.env.COVENANT_KEY || "", // daftar: https://covenant.sbs
-    onlym: process.env.ONLYM_KEY || "",
-    obscura: process.env.OBSCURA_KEY || "",
+    covenant: process.env.COVENANT_KEY || "cov_live_bb660c9e5f735e46d808b7ae362914cfe35c2936739ee2b2", // daftar: https://covenant.sbs
+    onlym: process.env.ONLYM_KEY || "ONLym-783d29",
+    obscura: process.env.OBSCURA_KEY || "obs-byOn9RVGMzvPXZQTsP9W",
     firefly: process.env.FIREFLY_KEY || "OurinNextGen" // key API firefly.maiku.my.id — jangan diubah biar fitur AI tetap jalan
   },
 };

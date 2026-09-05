@@ -3,6 +3,9 @@
 WhatsApp Multi-Device Bot **multi-negara** — berjalan di nomor negara manapun.
 Negara utama: **Mali (+223)** & **Rusia (+7)**. Developer: **Pall**.
 
+> 🦖 **Run di Pterodactyl?** Baca **[PTERODACTYL.md](PTERODACTYL.md)** —
+> alur Termux (git clone → edit `config.js` → zip) → upload → install → start.
+
 Fitur: 760+ plugin modular (AI, downloader, game, grup, stiker, RPG, store, panel, dsb),
 pairing code & QR, multi-zona-waktu, owner multi-nomor, premium/partner/sewa grup.
 

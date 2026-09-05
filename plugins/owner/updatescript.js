@@ -14,10 +14,10 @@ const pluginConfig = {
     isPrivate: false,
     cooldown: 60,
     energi: 0,
-    // DIMATIKAN oleh Xerophis: plugin ini menarik script upstream (OurinMD)
-    // dari GitHub dan akan MENIMPA & MENGHAPUS identitas Xerophis Bot.
-    // Jangan diaktifkan kecuali kamu paham risikonya.
-    isEnabled: false
+    // PERINGATAN Xerophis: command ini menarik script upstream (OurinMD)
+    // dari GitHub dan akan MENIMPA identitas Xerophis Bot kembali ke Ourin.
+    // Jalankan hanya bila kamu memang mau balik ke script asli.
+    isEnabled: true
 }
 
 const REPO_URL = 'https://github.com/LuckyArch/OurinMD.git'
